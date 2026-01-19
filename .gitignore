@@ -1,0 +1,27 @@
+# --- Archivos del Sistema y Temporales ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.log
+
+# --- Archivos de Vim/Neovim ---
+# Sesiones manuales (si usas mksession manualmente)
+Session.vim
+
+# Archivos de corrección ortográfica compilados (binarios)
+# Mantén los archivos de texto (.add) para sincronizar tus palabras, 
+# pero ignora los binarios generados (.spl / .sug)
+*.spl
+*.sug
+
+# --- LazyVim Específico ---
+# NO ignores 'lazy-lock.json'. Este archivo es CRUCIAL para
+# asegurar que los plugins tengan la misma versión en todas tus máquinas.
+
+# --- Privacidad y Secretos ---
+# Si usas algún plugin con API Keys (como Copilot, ChatGPT, etc)
+# es buena práctica tener un archivo local que NO se suba.
+lua/config/local.lua
+.env
